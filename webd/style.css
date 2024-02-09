@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+body{
+    background-image: url("images/shas.webp");
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center; 
+    background-repeat: no-repeat;
+
+}
+
+.main{
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color:#c40094;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+    color:black;
+    font-family:sans-serif;
+}
+
+.header{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 10%;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100 ;
+}
+
+.logo{
+    font-size: 32px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 700;
+    filter:drop-shadow(0 0 5px #09001d);
+}
+.navbar a{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover,
+.navbar a.active {
+    color:aqua;
+}
+.home{
+    height: 100vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-content{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.home-content h1{
+    font-size:78px;
+    font-weight: 700;
+    text-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.home-content p {
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0,0,0,.3);
+    margin-bottom:30px;
+}
+.start-btn{
+    color:aqua;
+    width: 120px;
+    height:60px;
+    border:2px solid #09001d;
+    outline:none;
+    border-radius: 4px;
+    box-shadow:0 0 10px #c40094;
+    font-size: 15px;
+    color:#09001d;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .5s;
+    padding: 5px 5px;
+    
+}
+.start-btn:hover{
+    background:#c40094;
+    box-shadow:100px;
+}
